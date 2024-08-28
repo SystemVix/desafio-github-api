@@ -1,0 +1,41 @@
+export default function Info()
+{
+   return (
+      <>
+         <div>
+           <h2>Imagem</h2> 
+         </div>         
+         <form>
+            <h3>Informações</h3>
+            <div>
+               <input
+                  name="profile"
+                  placeholder="Perfil"
+                  type="text"
+               />
+            </div>
+            <div>
+               <input
+                  name="followers"
+                  placeholder="Seguidores"
+                  type="text"
+               />
+            </div>
+            <div>
+               <input
+                  name="location"
+                  placeholder="Localidade"
+                  type="text"
+               />
+            </div>
+            <div>
+               <input
+                  name="name"
+                  placeholder="Nome"
+                  type="text"
+               />
+            </div>
+         </form>
+      </>      
+   );
+}
