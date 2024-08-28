@@ -4,10 +4,10 @@ export default function Header()
 {
    return (
       <>
-         <header>
+         <header >
             <div>
-               <Link to="/">
-                  <h1>Github API</h1>
+               <Link to="/" style={{textDecoration: "none"}}>
+                  <h1 >Github API</h1>
                </Link>
             </div>
          </header>

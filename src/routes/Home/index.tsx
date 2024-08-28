@@ -11,7 +11,7 @@ export default function Home()
                   <h3>DevSuperior - Escola de programação</h3>
                </div>
                <div>
-                  <Button/>
+                  <Button texto="Começar"/>
                </div>
             </section>
          </main>

@@ -1,8 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-  font-family: Inter, sans-serif;
+  font-family: Roboto, sans-serif;
   
+  --cor-borda-cinza: #D9D9D9;
+
+  --cor-fonte-branca: #FFFFFF;
+  --cor-fonte-cinzacl: #D9D9D9;
+  --cor-fonte-cinzaes: #737373;
+  --cor-fonte-preta: #000000;
+
+  --cor-fundo-azulcl: #E6F7FF;
+  --cor-fundo-azules: #1890FF;
+  --cor-fundo-cinza: #D9D9D9;
+}
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button
+{
+  background-color: var(--cor-fundo-azules);
+  border: none;
+  border-radius: 4px;
+  color: var(--cor-fonte-branca);
+  font-size: 16px;
+  margin-top: 25px;
+  padding: 8px 18px;
+}
+
+header h1
+{
+  align-items: center;
+  background-color: var(--cor-fundo-azules);
+  color: var(--cor-fonte-branca);
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  height: 62px;
+  padding-left: 41px;  
 }
 
 

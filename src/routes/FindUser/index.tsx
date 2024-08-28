@@ -21,7 +21,7 @@ export default function FindUser()
                   </div>            
                </form>
                <div>
-                  <Button/>
+                  <Button texto="Encontrar"/>
                </div>
                <div>
                   <InfoCard/>
