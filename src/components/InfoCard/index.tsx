@@ -35,7 +35,7 @@ export default function Info()
                   type="text"
                />
             </div>
-         </form>
+         </form>         
       </>      
    );
 }

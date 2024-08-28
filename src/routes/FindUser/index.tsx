@@ -1,6 +1,5 @@
 import Button from "../../components/Button";
 import InfoCard from "../../components/InfoCard";
-import Search from "../../components/Search";
 
 export default function FindUser()
 {

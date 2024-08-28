@@ -1,5 +1,5 @@
+import FindUser from "..";
 import Button from "../../../components/Button";
-import Search from "../../../components/Search";
 
 export default function NotFound()
 {
@@ -8,10 +8,10 @@ export default function NotFound()
          <main>
             <section>
                <div>
-                  <Search/>
+                  <FindUser/>
                </div>
                <div>
-                  <Button/>
+                  <Button texto="Encontrar"/>
                </div>
                <h2>Erro ao buscar usuário</h2>
             </section>

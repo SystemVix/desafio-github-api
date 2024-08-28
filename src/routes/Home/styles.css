@@ -1,0 +1,17 @@
+.conteiner-home
+{
+   margin-left: 41px;
+   margin-top: 27px;
+}
+
+.titulo-home
+{
+   font-size: 48px;
+   padding-bottom: 5px;
+}
+
+.subtitulo-home
+{
+   color: var(--cor-fonte-cinzaes);
+   font-size: 24px;
+}
