@@ -1,0 +1,46 @@
+.conteiner-finduser
+{
+   background-color: var(--cor-fundo-azulcl);
+   border-radius: 16px;
+   display: flex;
+   flex-direction: column;
+   height: 270px;
+   margin: 54px auto;
+   max-width: 1251px;   
+   width: 100%;
+}
+
+.conteiner-infocard
+{
+   margin: 0 auto;
+   max-width: 1251px;
+   width: 100%;
+}
+
+.input-finduser
+{
+   border: 1px solid var(--cor-borda-cinza);
+   border-radius: 4px;
+   font-size: 16px;
+   height: 40px;
+   margin-top: 12px;
+   width: 298px;
+}
+
+.input-finduser::placeholder
+{
+   color: var(--cor-fonte-cinzacl);
+   padding-left: 17px;
+}
+
+.ml31
+{
+   margin-left: 31px;
+}
+
+.titulo-finduser
+{
+   font-size: 38px;
+   font-weight: 500;
+   margin-top: 54px;
+}

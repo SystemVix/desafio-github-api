@@ -1,41 +1,35 @@
-export default function Info()
+import { infoDto } from '../../models/info-data';
+import './styles.css';
+
+type Props =
+{
+   infocard: infoDto;
+}
+
+export default function InfoCard({infocard}: Props)
 {
    return (
       <>
-         <div>
-           <h2>Imagem</h2> 
-         </div>         
-         <form>
-            <h3>Informações</h3>
-            <div>
-               <input
-                  name="profile"
-                  placeholder="Perfil"
-                  type="text"
-               />
+         <div className="conteiner-infocard">
+            <div className="card-informacoes">
+               <img src={infocard.avatar_url} alt={infocard.name}/>
+               <div>
+                  <h3>Informações</h3>
+                  <div>
+                     Perfil: <a href={infocard.html_url}></a>
+                  </div>
+                  <div>
+                     Seguidores: <p>{infocard.followers}</p>
+                  </div>
+                  <div>
+                     Localidade: <p>{infocard.location}</p>
+                  </div>
+                  <div>
+                     Nome: <p>{infocard.name}</p>
+                  </div>
+               </div>
             </div>
-            <div>
-               <input
-                  name="followers"
-                  placeholder="Seguidores"
-                  type="text"
-               />
-            </div>
-            <div>
-               <input
-                  name="location"
-                  placeholder="Localidade"
-                  type="text"
-               />
-            </div>
-            <div>
-               <input
-                  name="name"
-                  placeholder="Nome"
-                  type="text"
-               />
-            </div>
-         </form>         
+         </div>
       </>      
    );
 }

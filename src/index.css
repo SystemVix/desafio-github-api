@@ -29,6 +29,7 @@ button
   border-radius: 4px;
   color: var(--cor-fonte-branca);
   font-size: 16px;
+  margin-bottom: 54px;
   margin-top: 27px;
   padding: 8px 18px;
 }
@@ -45,4 +46,8 @@ header h1
   padding-left: 41px;  
 }
 
+.borda-input
+{
+  border: 1px solid var(--cor-borda-cinza);
+}
 
